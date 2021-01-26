@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="fr">
+    <head>
+        <meta charset="UTF-8">
+        <title>Exercice 1 a 3</title>
+
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    </head>
+    <body>
+        <form action="http://univcergy.phpnet.org/CCI/form.php" method="post">
+
+            <label for="motclef">Mots clefs</label>
+            <input class="form-control" type="text" name="motclef" id="motclef">
+            <label for="categorie"> Département</label>
+            <select class="form-control" id="categorie" name="categorie" size="3">
+                <option value="Jouets">Jouets</option>
+                <option value="Location">Location</option>
+                <option value="Voiture">Voiture</option>
+            </select>
+            <label for="dept"> Département</label>
+            <select class="form-control" id="dept" name="dept">
+                <option value="Bretagne">Bretagne</option>
+                <option value="Bretagne">Bretagne</option>
+            </select>
+            <input type="submit" class="btn btn-success btn-lg" value="Chercher">
+        </form>
+    </body>
+</html>

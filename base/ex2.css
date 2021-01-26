@@ -1,0 +1,21 @@
+td
+{
+
+  width:150px;
+  border:1px solid black;
+}
+
+#rouge{
+  color:red;
+}
+
+.Tb2{
+  height:50px;
+  width:150px;
+}
+
+.Tb3{
+  height:50px;
+  width:150px;
+  border:2px solid black;
+}
